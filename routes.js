@@ -12,7 +12,6 @@ function routes(app) {
   app.use('/api/helloworld', helloworld);
   app.use('/api/users', user);
   app.use('/api/uploads', upload);
-  app.use('/api/payments', payment);
 
   // auth routes
   app.use('/auth/local', authLocal);
